@@ -18,7 +18,6 @@ for($i = 1; $i <= 10000; $i++){
 
 ?>
 
-
 <?php
 
 $fruits = array("pine","apple","banana","litchi","kiwi");
