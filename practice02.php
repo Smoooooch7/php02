@@ -3,18 +3,20 @@
 $name = "えり";
 
 if($name == "えり"){
-    echo "私はあなたの名前です";
+    echo "私は".$name."です";
 }else{
-    echo "あなたの名前ではありません";
+    echo "私は".$name."ではありません";
 }
 
 ?>
 
 <?php
 
+$total = 0;
 for($i = 1; $i <= 10000; $i++){
-    echo $i;
+    $total = $total + $i;
 }
+echo $total;
 
 ?>
 
@@ -34,11 +36,11 @@ foreach($fruits as $fruit){
 $start = 1;
 $end = 100;
 
-for($i = $start; $start <= $end; $start++){
+for($i = $start; $i <= $end; $i++){
 
   // 5で割り切れたら{}内を実行する
   if($start % 5 == 0){
-    echo $start;
+    echo $i;
   }
 }
 
