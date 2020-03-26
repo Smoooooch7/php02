@@ -1,10 +1,8 @@
 <?php
 
-function sum($result){
+function sum($price){
   
-  $result = $result*2;
-  
-  return $result;
+  return $price * 2;
 }
 
 echo sum(7);
