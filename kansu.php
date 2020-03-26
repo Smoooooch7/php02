@@ -36,10 +36,20 @@ echo "\n";
 // とりあえず配列の最初の要素を一番大きい値とする
    $max_number = $arr[0];
    foreach($arr as $a){
- 
-}
+     
+     if($a > $max_number){
+       
+       $max_number = $a; 
+     }else{
    return $max_number;
+  }
  }
+}
+   echo max_array(array(5,2,3,10,200,33,45,10));
+
+
+
+
  
  $string = "abcdefg<br>hijklmn";
  echo strip_tags($string);
